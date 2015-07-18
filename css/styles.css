@@ -1,0 +1,62 @@
+html, body {
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   text-align: center;
+}
+
+.wrapper {
+   display: table;
+   height: 100%;
+   margin: 0 auto;
+   padding: 0 12px;
+   width: auto;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   white-space: nowrap;
+}
+
+
+.day {
+   display: inline-block;
+   min-height: 600px;
+   width: 220px;
+   margin: 4px;
+   padding: 12px;
+   border: 1px solid #ccc;
+}
+
+.name {
+   padding-bottom: 6px;
+   border-bottom: 1px dotted #ccc;
+}
+
+.task {
+   float: left;
+   width: 100%;
+   margin-top: 12px;
+   padding: 12px;
+   min-height: 1em; /* Needed when there is no name, just time */
+   border-radius: 2px;
+   border: 1px dashed #ccc;
+   box-sizing: border-box;
+}
+
+.task .time {
+   float: right;
+   color: #aaa;
+}
+
+.task h1 {
+   font-size: 1.2em;
+   margin: 0;
+   font-weight: normal;
+}
+
+ul {
+    list-style-position: inside;
+   padding: 0 0 0 6px;
+}
