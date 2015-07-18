@@ -1,6 +1,7 @@
 # ThisWeek
 
-A weekly schedule
+A weekly schedule dashboard. A read-only demo can be found at [onebytegone.github.io/ThisWeek](http://onebytegone.github.io/ThisWeek/).
+
 
 ## Setup
 
