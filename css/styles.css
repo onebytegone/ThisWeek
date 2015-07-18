@@ -15,6 +15,10 @@ html, body {
    margin: 0;
 }
 
+.header i {
+   margin-right: 12px;
+}
+
 .wrapper {
    display: table;
    height: 100%;
