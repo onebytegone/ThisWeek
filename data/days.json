@@ -3,6 +3,14 @@
       {
          "hours": 1,
          "name": "Daily Tasks"
+      },
+      {
+         "hours": 3,
+         "name": "Visit Family"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Monday": [
@@ -13,6 +21,18 @@
       {
          "hours": 10,
          "name": "Work"
+      },
+      {
+         "hours": 0.5,
+         "name": "Play with Turtle"
+      },
+      {
+         "hours": 1,
+         "name": "Bike Ride"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Tuesday": [
@@ -23,6 +43,14 @@
       {
          "hours": 10,
          "name": "Work"
+      },
+      {
+         "hours": 4,
+         "name": "Side Projects"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Wednesday": [
@@ -33,6 +61,14 @@
       {
          "hours": 10,
          "name": "Work"
+      },
+      {
+         "hours": 3,
+         "name": "Mindless Jobs"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Thursday": [
@@ -43,6 +79,14 @@
       {
          "hours": 10,
          "name": "Work"
+      },
+      {
+         "hours": 2,
+         "name": "Bike Ride"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Friday": [
@@ -53,12 +97,24 @@
       {
          "hours": 10,
          "name": "Work"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ],
    "Saturday": [
       {
          "hours": 1,
          "name": "Daily Tasks"
+      },
+      {
+         "hours": 5,
+         "name": "Sit in Park"
+      },
+      {
+         "hours": 8,
+         "name": "Sleep"
       }
    ]
 }
