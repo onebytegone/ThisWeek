@@ -44,6 +44,15 @@ html, body {
    box-sizing: border-box;
 }
 
+.task.open {
+   color: #4F7FB9;
+   border-color: #A3B8D3;
+}
+
+.open .time {
+   color: #A3B8D3;
+}
+
 .time {
    float: right;
    color: #aaa;

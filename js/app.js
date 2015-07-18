@@ -1,6 +1,8 @@
 // Copyright 2015 Ethan Smith
 
 (function() {
+   var HOURS_IN_DAY = 24;
+
    _.templateSettings.variable = 'model';
 
    $.getJSON('data/days.json', function( data ) {
@@ -15,6 +17,16 @@
       var days = _.map(data, function(tasks, name) {
          var tasksHTML = _.map(tasks, taskTemplate).join('');
          var timeUsed = _.reduce(tasks, function(total, task){ return total + task.hours; }, 0);
+         var timeLeft = HOURS_IN_DAY - timeUsed;
+
+         if (timeLeft > 0) {
+            tasksHTML += taskTemplate({
+               classes: 'open',
+               name: 'Open',
+               hours: timeLeft
+            });
+         }
+
          return dayTemplate({
             'name': name,
             'used': timeUsed,
