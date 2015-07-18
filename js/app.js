@@ -3,7 +3,7 @@
 (function() {
    _.templateSettings.variable = 'model';
 
-   $.getJSON('days.json', function( data ) {
+   $.getJSON('data/days.json', function( data ) {
       var createTemplate = function(id) {
          return _.template(
             $( 'script.' + id ).html()
