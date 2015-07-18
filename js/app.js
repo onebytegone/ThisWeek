@@ -21,6 +21,7 @@
 
          if (timeLeft > 0) {
             tasksHTML += taskTemplate({
+               icon: 'fa-paper-plane-o',
                classes: 'open',
                name: 'Open',
                hours: timeLeft

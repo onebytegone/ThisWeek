@@ -29,7 +29,7 @@ html, body {
 .day {
    display: inline-block;
    min-height: 600px;
-   width: 220px;
+   width: 260px;
    margin: 0 4px 4px 4px;
    padding: 12px;
    border: 1px solid #ccc;
@@ -60,15 +60,27 @@ html, body {
    color: #A3B8D3;
 }
 
+.task.open i {
+   color: #4F7FB9;
+}
+
 .time {
    float: right;
    color: #aaa;
+}
+
+.task i {
+   position : relative;
+   margin-right: 5px;
+   top: -2px;
+   color: #888;
 }
 
 .task h1 {
    font-size: 1.2em;
    margin: 0;
    font-weight: normal;
+   display: inline-block;
 }
 
 ul {

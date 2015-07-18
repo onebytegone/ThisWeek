@@ -2,6 +2,7 @@
 <html>
 <head>
    <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="header">
@@ -19,6 +20,9 @@
    </script>
    <script type="text/template" class="template-task">
       <div class="task <%- model.classes %>">
+         <% if (model.icon) { %>
+            <i class="fa <%= model.icon %>"></i>
+         <% } %>
          <div class="time"><%- model.hours %>hr</div>
          <h1><%- model.name %></h1>
       </div>
