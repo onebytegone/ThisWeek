@@ -1,2 +1,5 @@
 .DS_Store
+data/*
+!data/days.example.json
+!data/.gitignore
 
