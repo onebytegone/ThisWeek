@@ -12,9 +12,12 @@
          );
       };
       var dayTemplate = createTemplate('template-day'),
-          taskTemplate = createTemplate('template-task');
+          taskTemplate = createTemplate('template-task'),
+          todayIndex = (new Date()).getDay(),
+          dayNames = _.keys(data);
 
-      var days = _.map(data, function(tasks, name) {
+      var days = _.map(dayNames, function(name, index) {
+         var tasks = data[name];
          var tasksHTML = _.map(tasks, taskTemplate).join('');
          var timeUsed = _.reduce(tasks, function(total, task){ return total + task.hours; }, 0);
          var timeLeft = HOURS_IN_DAY - timeUsed;
@@ -31,7 +34,8 @@
          return dayTemplate({
             'name': name,
             'used': timeUsed,
-            'tasksHTML': tasksHTML
+            'tasksHTML': tasksHTML,
+            'classes': (index === todayIndex ? 'today' : '')
          });
       });
 

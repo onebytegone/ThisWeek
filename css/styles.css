@@ -39,6 +39,18 @@ html, body {
    border: 1px solid #ccc;
 }
 
+.today {
+   border: 2px double #A3B8D3;
+}
+
+.today .name {
+   color: #4F7FB9;
+}
+
+.today .info .time {
+   color: #A3B8D3;
+}
+
 .name {
    padding-bottom: 6px;
    border-bottom: 1px dotted #ccc;

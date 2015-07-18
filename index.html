@@ -10,9 +10,11 @@
 </div>
    <div class="wrapper" id="jsWeek"></div>
    <script type="text/template" class="template-day">
-      <div class="day">
-         <div class="time"><%- model.used %>/24</div>
-         <div class="name"><%- model.name %></div>
+      <div class="day <%- model.classes %>">
+         <div class="info">
+            <div class="time"><%- model.used %>/24</div>
+            <div class="name"><%- model.name %></div>
+         </div>
          <div class="items">
             <%= model.tasksHTML %>
          </div>
