@@ -14,8 +14,10 @@
 
       var days = _.map(data, function(tasks, name) {
          var tasksHTML = _.map(tasks, taskTemplate).join('');
+         var timeUsed = _.reduce(tasks, function(total, task){ return total + task.hours; }, 0);
          return dayTemplate({
             'name': name,
+            'used': timeUsed,
             'tasksHTML': tasksHTML
          });
       });

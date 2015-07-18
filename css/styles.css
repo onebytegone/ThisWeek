@@ -19,7 +19,6 @@ html, body {
    white-space: nowrap;
 }
 
-
 .day {
    display: inline-block;
    min-height: 600px;
@@ -45,7 +44,7 @@ html, body {
    box-sizing: border-box;
 }
 
-.task .time {
+.time {
    float: right;
    color: #aaa;
 }
