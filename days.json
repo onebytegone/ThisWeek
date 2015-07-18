@@ -1,0 +1,64 @@
+{
+   "Sunday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      }
+   ],
+   "Monday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      },
+      {
+         "hours": 10,
+         "name": "Work"
+      }
+   ],
+   "Tuesday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      },
+      {
+         "hours": 10,
+         "name": "Work"
+      }
+   ],
+   "Wednesday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      },
+      {
+         "hours": 10,
+         "name": "Work"
+      }
+   ],
+   "Thursday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      },
+      {
+         "hours": 10,
+         "name": "Work"
+      }
+   ],
+   "Friday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      },
+      {
+         "hours": 10,
+         "name": "Work"
+      }
+   ],
+   "Saturday": [
+      {
+         "hours": 1,
+         "name": "Daily Tasks"
+      }
+   ]
+}
